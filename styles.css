@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: black;
+    background: linear-gradient(to right, #141e30, #243b55);
     height: 100vh;
     display: grid;
     place-items: center;
@@ -14,15 +14,15 @@ body{
 }
 .content{
     width: 80vmin;
-    background-color: white;
+    background-color: #91C8E4;
     aspect-ratio: 16/9;
     border-radius: 2vmin;
     position:absolute;
     border-style: solid;
-    border-color: #FFBFA9;
+    border-color: #749BC2;
     border-radius: 10px;
 }
-.cover{
+/* .cover{
     width: 80vmin;
     background-color: white;
     aspect-ratio: 16/9;
@@ -38,14 +38,11 @@ body{
     padding-top: 20%;
     font-size: 70px;
     font-family: 'Sacramento', cursive;
-}
-.cover:hover{
-    transform: translate(-350%)
-}
+} */
 /* content mod */
 #nguyen-photo{
     border-radius: 50%;
-    border: 2px solid #E61E2A;
+    border: 2px solid #F6F4EB;
     width: 200px;
     position: absolute;
     left: 73%;
@@ -64,20 +61,23 @@ body{
     opacity: 0%;
     height: 200px;
     width: 200px;
-    border: 2px solid #E61E2A;
+    border: 2px solid #F6F4EB;
 }
 .portrait:hover #nguyen-photo2{
     opacity: 100%;
 }
 .content h2{
     position: absolute;
-    left: 76%;
+    left: 75%;
     top: 45%;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 .content h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 44px;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    padding-left: 5%;
 }
 .content p{
     font-family: 'Montserrat', sans-serif;
